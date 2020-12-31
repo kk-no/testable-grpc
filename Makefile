@@ -1,5 +1,8 @@
-run:
-	go run cmd/testable/main.go
+run/cli:
+	go run cmd/client/main.go
+
+run/ser:
+	go run cmd/server/main.go
 
 test:
 	go test ./...
